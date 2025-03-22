@@ -1,4 +1,4 @@
-### AIEngineering Repository  
+# AIEngineering 
 
 This repository contains materials, notes, and code for the Udemy course: [**The AI Engineer Course - Complete AI Engineer Bootcamp**](https://www.udemy.com/course/the-ai-engineer-course-complete-ai-engineer-bootcamp). Additionally, it includes personal notes, insights, and projects created throughout the learning process.  
 
@@ -6,17 +6,18 @@ This repository contains materials, notes, and code for the Udemy course: [**The
 
 ## 📑 Table of Contents  
 
-- [📑 Table of Contents](#-table-of-contents)
-- [📦 Installed Packages](#-installed-packages)
-- [🏗️ Setting Up the Conda Environment](#️-setting-up-the-conda-environment)
-  - [1️⃣ Create and Activate the Environment](#1️⃣-create-and-activate-the-environment)
-  - [2️⃣ Install Required Packages](#2️⃣-install-required-packages)
-  - [3️⃣ Download Language Model for spaCy](#3️⃣-download-language-model-for-spacy)
-  - [4️⃣ Install Jupyter \& Configure Kernel](#4️⃣-install-jupyter--configure-kernel)
-- [📆 Daily Progress](#-daily-progress)
-  - [Day 1 - Day 19: Python Programming](#day-1---day-19-python-programming)
-  - [Day 20: NLP Module: Introduction](#day-20-nlp-module-introduction)
-  - [Day 21: NLP Module: Text Preprocessing](#day-21-nlp-module-text-preprocessing)
+- [AIEngineering](#aiengineering)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [📦 Installed Packages](#-installed-packages)
+  - [🏗️ Setting Up the Conda Environment](#️-setting-up-the-conda-environment)
+    - [1️⃣ Create and Activate the Environment](#1️⃣-create-and-activate-the-environment)
+    - [2️⃣ Install Required Packages](#2️⃣-install-required-packages)
+    - [3️⃣ Download Language Model for spaCy](#3️⃣-download-language-model-for-spacy)
+    - [4️⃣ Install Jupyter \& Configure Kernel](#4️⃣-install-jupyter--configure-kernel)
+  - [📆 Daily Progress](#-daily-progress)
+    - [Day 1 - Day 19: Python Programming](#day-1---day-19-python-programming)
+    - [Day 20: NLP Module: Introduction](#day-20-nlp-module-introduction)
+    - [Day 21: NLP Module: Text Preprocessing](#day-21-nlp-module-text-preprocessing)
 
 ---
 
