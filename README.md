@@ -115,7 +115,6 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - Practiced tokenization using NLTK, distinguishing between word and sentence tokenization to break text into manageable units.
 - Explored text standardization techniques, including stemming with the Porter stemmer and lemmatization with WordNet Lemmatizer, comparing their effects on word reduction and meaning preservation.
 - Analyzed n-grams (unigrams, bigrams, and trigrams) using NLTK, pandas, and matplotlib, visualizing frequent word sequences for feature creation and pattern identification.
--
 
 - [notes.ipynb](./Section21/notes.ipynb)
 - [codes.ipynb](./Section21/codes.ipynb)
