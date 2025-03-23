@@ -107,3 +107,16 @@ A daily log to track learning progress, document challenges, and reflect on new 
 
 **What I did today:**
 
+- Gained a comprehensive understanding of the importance of data preprocessing in Natural Language Processing (NLP), emphasizing the "garbage in, garbage out" principle.
+- Developed practical skills in text cleaning, including noise removal and formatting, to prepare data for machine learning algorithms.
+- Implemented Python's `lower()` function to ensure consistent word recognition by converting text to lowercase, while acknowledging potential drawbacks with certain abbreviations.
+- Utilized the NLTK library to remove stopwords, customizing the stopword list to improve model performance and reduce data complexity.
+- Applied regular expressions (regex) for pattern matching, text replacement, and punctuation removal, using `re.search` and `re.sub` functions.
+- Practiced tokenization using NLTK, distinguishing between word and sentence tokenization to break text into manageable units.
+- Explored text standardization techniques, including stemming with the Porter stemmer and lemmatization with WordNet Lemmatizer, comparing their effects on word reduction and meaning preservation.
+- Analyzed n-grams (unigrams, bigrams, and trigrams) using NLTK, pandas, and matplotlib, visualizing frequent word sequences for feature creation and pattern identification.
+-
+
+- [notes.ipynb](./Section21/notes.ipynb)
+- [codes.ipynb](./Section21/codes.ipynb)
+- [practical.ipynb](./Section21/practical.ipynb)
