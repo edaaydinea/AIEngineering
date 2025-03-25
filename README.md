@@ -18,6 +18,7 @@ This repository contains materials, notes, and code for the Udemy course: [**The
     - [Day 1 - Day 19: Python Programming](#day-1---day-19-python-programming)
     - [Day 20: NLP Module: Introduction](#day-20-nlp-module-introduction)
     - [Day 21: NLP Module: Text Preprocessing](#day-21-nlp-module-text-preprocessing)
+    - [Day 22: NLP Module: Identifying Parts of Speech and Named Entities](#day-22-nlp-module-identifying-parts-of-speech-and-named-entities)
 
 ---
 
@@ -119,3 +120,18 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [notes.ipynb](./Section21/notes.ipynb)
 - [codes.ipynb](./Section21/codes.ipynb)
 - [practical.ipynb](./Section21/practical.ipynb)
+
+### Day 22: NLP Module: Identifying Parts of Speech and Named Entities
+
+**What I did today:*
+
+- Implemented Parts of Speech (POS) tagging using Spacy and Pandas to analyze textual data, specifically processing Jane Austen's "Emma."
+- Developed a Python script to extract tokens and their POS tags, organizing the data into a Pandas DataFrame for frequency analysis.
+- Analyzed the frequency of tokens and POS tags, filtering for specific grammatical roles like nouns and adjectives to gain insights into text composition.
+- Applied Named Entity Recognition (NER) with Spacy to identify and label entities such as dates, people, and organizations within text from the Google Wikipedia page.
+- Utilized Displacy for visualizing identified named entities, enhancing text comprehension.
+- Demonstrated the impact of text cleaning (punctuation removal and lowercasing) on NER results, highlighting the importance of preprocessing timing.
+
+- [notes.ipynb](./Section22/notes.ipynb)
+- [codes.ipynb](./Section22/codes.ipynb)
+- [practical.ipynb](./Section22/practical.ipynb)
