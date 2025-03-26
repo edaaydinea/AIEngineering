@@ -19,6 +19,7 @@ This repository contains materials, notes, and code for the Udemy course: [**The
     - [Day 20: NLP Module: Introduction](#day-20-nlp-module-introduction)
     - [Day 21: NLP Module: Text Preprocessing](#day-21-nlp-module-text-preprocessing)
     - [Day 22: NLP Module: Identifying Parts of Speech and Named Entities](#day-22-nlp-module-identifying-parts-of-speech-and-named-entities)
+    - [Day 23: NLP Module: Sentiment Analysis](#day-23-nlp-module-sentiment-analysis)
 
 ---
 
@@ -135,3 +136,21 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [notes.ipynb](./Section22/notes.ipynb)
 - [codes.ipynb](./Section22/codes.ipynb)
 - [practical.ipynb](./Section22/practical.ipynb)
+
+
+### Day 23: NLP Module: Sentiment Analysis
+
+**What I did today:**
+
+- Defined sentiment analysis as a Natural Language Processing (NLP) technique used to determine the emotional tone of text, categorizing it as positive, negative, or neutral.
+- Explained the applicability of sentiment analysis in gauging public opinion regarding brands, products, and individuals.
+- Demonstrated the use of rule-based sentiment analysis with Textblob and Vader, comparing their methods and outputs on example sentences.
+- Analyzed the differences in how Textblob and Vader handle nuanced language, noting Vader's higher sensitivity to contrasting clauses.
+- Introduced sentiment analysis using pre-trained transformer models from the Transformers library, highlighting their advanced capability in understanding word relationships and context.
+- Showed how to implement sentiment analysis pipelines with the Transformers library, including the selection of specific pre-trained models for optimized results.
+- Emphasized the importance of matching the pre-trained model to the characteristics of the data for improved accuracy.
+
+- [notes.ipynb](./Section23/notes.ipynb)
+- [codes.ipynb](./Section23/codes.ipynb)
+- [codes2.ipynb](./Section23/codes2.ipynb)
+- [practical.ipynb](./Section23/practical.ipynb)
