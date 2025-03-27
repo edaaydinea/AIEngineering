@@ -20,6 +20,8 @@ This repository contains materials, notes, and code for the Udemy course: [**The
     - [Day 21: NLP Module: Text Preprocessing](#day-21-nlp-module-text-preprocessing)
     - [Day 22: NLP Module: Identifying Parts of Speech and Named Entities](#day-22-nlp-module-identifying-parts-of-speech-and-named-entities)
     - [Day 23: NLP Module: Sentiment Analysis](#day-23-nlp-module-sentiment-analysis)
+    - [Day 24: NLP Module: Vectorizing Text](#day-24-nlp-module-vectorizing-text)
+    - [Day 25: NLP Module: Topic Modeling](#day-25-nlp-module-topic-modeling)
 
 ---
 
@@ -103,6 +105,8 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - Understood the evolution of NLP from rule-based systems to advanced models like ChatGPT, driven by large datasets and technological advancements.
 - Conceptualized code examples for keyword extraction, spam detection, chatbot responses, supervised learning, and unsupervised learning in NLP.
 
+**Resources:**
+
 - [notes.ipynb](./Section20/notes.ipynb)
 
 ### Day 21: NLP Module: Text Preprocessing
@@ -118,6 +122,8 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - Explored text standardization techniques, including stemming with the Porter stemmer and lemmatization with WordNet Lemmatizer, comparing their effects on word reduction and meaning preservation.
 - Analyzed n-grams (unigrams, bigrams, and trigrams) using NLTK, pandas, and matplotlib, visualizing frequent word sequences for feature creation and pattern identification.
 
+**Resources:**
+
 - [notes.ipynb](./Section21/notes.ipynb)
 - [codes.ipynb](./Section21/codes.ipynb)
 - [practical.ipynb](./Section21/practical.ipynb)
@@ -132,6 +138,8 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - Applied Named Entity Recognition (NER) with Spacy to identify and label entities such as dates, people, and organizations within text from the Google Wikipedia page.
 - Utilized Displacy for visualizing identified named entities, enhancing text comprehension.
 - Demonstrated the impact of text cleaning (punctuation removal and lowercasing) on NER results, highlighting the importance of preprocessing timing.
+
+**Resources:**
 
 - [notes.ipynb](./Section22/notes.ipynb)
 - [codes.ipynb](./Section22/codes.ipynb)
@@ -150,7 +158,47 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - Showed how to implement sentiment analysis pipelines with the Transformers library, including the selection of specific pre-trained models for optimized results.
 - Emphasized the importance of matching the pre-trained model to the characteristics of the data for improved accuracy.
 
+**Resources:**
+
 - [notes.ipynb](./Section23/notes.ipynb)
 - [codes.ipynb](./Section23/codes.ipynb)
 - [codes2.ipynb](./Section23/codes2.ipynb)
 - [practical.ipynb](./Section23/practical.ipynb)
+
+### Day 24: NLP Module: Vectorizing Text
+
+**What I did today:**
+
+- Gained a foundational understanding of text vectorization, including the Bag of Words model and TF-IDF, and their respective applications in machine learning.
+- Implemented the Bag of Words model using `CountVectorizer` from scikit-learn, converting text data into a numerical matrix representing word occurrences.
+- Utilized pandas DataFrames to effectively visualize and interpret the output of the Bag of Words model, noting the loss of contextual information.
+- Explored TF-IDF as an enhanced text vectorization technique, which considers both term frequency and inverse document frequency to capture word importance.
+- Applied `TfidfVectorizer` from scikit-learn to transform text data into a TF-IDF matrix, demonstrating the retention of more contextual information compared to the Bag of Words model.
+- Analyzed the numerical output of TF-IDF, understanding how higher scores indicate greater word significance across documents.
+- Prepared for the next lesson by recognizing the importance of TF-IDF calculations for improving machine learning model performance in natural language processing tasks.
+
+**Resources:**
+
+- [notes.ipynb](./Section24/notes.ipynb)
+- [codes.ipynb](./Section24/codes.ipynb)
+
+### Day 25: NLP Module: Topic Modeling
+
+**What I did today:**
+
+- Understood the concept of topic modeling as an unsupervised machine learning technique for identifying patterns and grouping similar documents.
+- Learned that topic modeling algorithms analyze word patterns to uncover latent themes within text data, simplifying large datasets.
+- Explored real-world applications of topic modeling, including organizing news articles, analyzing customer feedback, and monitoring social media discussions.
+- Studied Latent Dirichlet Allocation (LDA), a probabilistic model that identifies latent topics by analyzing word frequencies and distributions.
+- Implemented LDA in Python using the Gensim library, preprocessing text data, training the model, and interpreting the resulting topics.
+- Examined Latent Semantic Analysis (LSA), a topic modeling technique based on Singular Value Decomposition (SVD) for dimensionality reduction.
+- Implemented LSA in Python using Gensim's LsiModel, comparing its output with LDA and interpreting the generated topics.
+- Learned how to determine the optimal number of topics for LSA using coherence scores and visualized the results to identify the best number of topics.
+- Applied mathematical metrics and business context to select the most meaningful and coherent topics.
+- Prepared for future work by understanding the importance of optimizing the number of topics for improved topic modeling results.
+
+**Resources:**
+
+- [notes.ipynb](./Section25/notes.ipynb)
+- [codes1.ipynb](./Section25/codes1.ipynb)
+- [codes2.ipynb](./Section25/codes2.ipynb)
