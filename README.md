@@ -22,6 +22,7 @@ This repository contains materials, notes, and code for the Udemy course: [**The
     - [Day 23: NLP Module: Sentiment Analysis](#day-23-nlp-module-sentiment-analysis)
     - [Day 24: NLP Module: Vectorizing Text](#day-24-nlp-module-vectorizing-text)
     - [Day 25: NLP Module: Topic Modeling](#day-25-nlp-module-topic-modeling)
+    - [Day 26: NLP Module: Building Your Own Text Classifier](#day-26-nlp-module-building-your-own-text-classifier)
 
 ---
 
@@ -202,3 +203,21 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [notes.ipynb](./Section25/notes.ipynb)
 - [codes1.ipynb](./Section25/codes1.ipynb)
 - [codes2.ipynb](./Section25/codes2.ipynb)
+
+### Day 26: NLP Module: Building Your Own Text Classifier
+
+**What I did today:**
+
+- Developed a foundational understanding of custom text classification using supervised machine learning algorithms.
+- Explored the application of Logistic Regression, Naive Bayes, and Linear Support Vector Machine for text data classification.
+- Implemented a logistic regression model for sentiment analysis, establishing a baseline for model performance.
+- Trained a Naive Bayes model, observing a slight improvement in accuracy compared to the logistic regression baseline.
+- Applied a Linear Support Vector Machine (SVM) model, achieving further accuracy improvement, while acknowledging the need for data refinement.
+- Gained practical experience in data preprocessing, feature extraction using CountVectorizer, and model evaluation using accuracy scores and classification reports.
+- Identified the iterative nature of machine learning projects and the importance of hyperparameter tuning and data augmentation for model optimization.
+- Recognized the value of further learning in algorithm details and hyperparameter tuning through recommended 365 Data Science courses.
+
+**Resources:**
+
+- [notes.ipynb](./Section26/notes.ipynb)
+- [codes.ipynb](./Section26/codes.ipynb)
