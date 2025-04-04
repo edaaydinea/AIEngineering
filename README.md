@@ -23,6 +23,10 @@ This repository contains materials, notes, and code for the Udemy course: [**The
     - [Day 24: NLP Module: Vectorizing Text](#day-24-nlp-module-vectorizing-text)
     - [Day 25: NLP Module: Topic Modeling](#day-25-nlp-module-topic-modeling)
     - [Day 26: NLP Module: Building Your Own Text Classifier](#day-26-nlp-module-building-your-own-text-classifier)
+    - [Day 27: NLP Module: Categorizing Fake News (Case Study)](#day-27-nlp-module-categorizing-fake-news-case-study)
+    - [🔍 Highlights](#-highlights)
+    - [📌 Notes \& Next Steps](#-notes--next-steps)
+    - [Day 28: NLP Module: The Future of NLP](#day-28-nlp-module-the-future-of-nlp)
 
 ---
 
@@ -221,3 +225,42 @@ A daily log to track learning progress, document challenges, and reflect on new 
 
 - [notes.ipynb](./Section26/notes.ipynb)
 - [codes.ipynb](./Section26/codes.ipynb)
+
+### Day 27: NLP Module: Categorizing Fake News (Case Study)
+
+### 🔍 Highlights
+
+- Imported and utilized the `pandas` and `matplotlib.pyplot` libraries for data manipulation and plotting.
+- Loaded and explored a dataset related to fake and factual news articles.
+- Preprocessed the dataset, potentially cleaning and formatting it for analysis.
+- Implemented a Support Vector Machine (SVM) model using `sklearn.svm` to classify news as either "Factual News" or "Fake News".
+- Evaluated the SVM model's performance using `accuracy_score` and `classification_report` from `sklearn.metrics`.
+- Achieved an accuracy of approximately 83% on the test set with the SVM model.
+- Generated a classification report showing precision, recall, and F1-score for both "Factual News" and "Fake News" categories.
+
+### 📌 Notes & Next Steps
+
+- Further analysis may involve exploring other classification models or refining the current SVM model.
+- Visualization of the classification results or data characteristics could enhance understanding.
+- Communication strategies for presenting findings to stakeholders should be developed.
+- Investigate methods to address the class imbalance, as indicated by the differences in support for each class.
+
+**Resources:**
+
+- [codes.ipynb](./Section27/codes.ipynb)
+
+
+### Day 28: NLP Module: The Future of NLP
+
+**What I did today:**
+
+- Gained a foundational understanding of deep learning principles, including neural network architectures and training methodologies.
+- Explored the application of deep learning in Natural Language Processing, with a focus on large language models like ChatGPT and the Transformer architecture.
+- Learned about the challenges and strategies involved in extending NLP techniques to languages beyond English, including data availability and pre-processing considerations.
+- Investigated the importance of language support in NLP packages and the existence of language-specific libraries such as AI-NLTK for Indic languages.
+- Considered the future trajectory of NLP, including advancements in contextual understanding, multimodal integration, model optimization, and ethical considerations.
+- Reviewed example code demonstrating the loading of spaCy language models and the concept of adapting English NLP code for other languages by utilizing different language models.
+
+**Resources:**
+
+- [notes.ipynb](./Section28/notes.ipynb)
