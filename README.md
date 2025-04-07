@@ -27,6 +27,7 @@ This repository contains materials, notes, and code for the Udemy course: [**The
     - [🔍 Highlights](#-highlights)
     - [📌 Notes \& Next Steps](#-notes--next-steps)
     - [Day 28: NLP Module: The Future of NLP](#day-28-nlp-module-the-future-of-nlp)
+    - [Day 29: LLMs Module: Introduction to Large Language Models](#day-29-llms-module-introduction-to-large-language-models)
 
 ---
 
@@ -264,3 +265,18 @@ A daily log to track learning progress, document challenges, and reflect on new 
 **Resources:**
 
 - [notes.ipynb](./Section28/notes.ipynb)
+
+### Day 29: LLMs Module: Introduction to Large Language Models
+
+**What I did today:**
+
+- Gained an understanding of the diverse capabilities of large language models (LLMs) and their increasing prominence, exemplified by models like ChatGPT.
+- Learned about the fundamental Transformer architecture that underpins the functionality of modern LLMs.
+- Recognized the significance of the size of LLMs, measured by the number of parameters, in their ability to process and generate language effectively.
+- Understood that LLMs are general-purpose models, pre-trained on vast datasets to acquire broad language understanding, which can then be fine-tuned for specific tasks.
+- Identified pre-training and fine-tuning as crucial stages in LLM development, enabling them to learn general language patterns and then specialize in particular applications.
+- Explored the wide array of potential applications for LLMs, including content creation, language translation, question answering, chatbot development, and more.
+
+***Resources:**
+
+- [notes.ipynb](./Section29/notes.ipynb)
