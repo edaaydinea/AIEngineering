@@ -28,6 +28,8 @@ This repository contains materials, notes, and code for the Udemy course: [**The
     - [📌 Notes \& Next Steps](#-notes--next-steps)
     - [Day 28: NLP Module: The Future of NLP](#day-28-nlp-module-the-future-of-nlp)
     - [Day 29: LLMs Module: Introduction to Large Language Models](#day-29-llms-module-introduction-to-large-language-models)
+  - [Day 30: LLMs Module: The Transformer Architecture](#day-30-llms-module-the-transformer-architecture)
+  - [Day 31: LLMs Module: Getting Started with GPT models](#day-31-llms-module-getting-started-with-gpt-models)
 
 ---
 
@@ -280,3 +282,42 @@ A daily log to track learning progress, document challenges, and reflect on new 
 ***Resources:**
 
 - [notes.ipynb](./Section29/notes.ipynb)
+
+
+## Day 30: LLMs Module: The Transformer Architecture
+
+**What I did today:**
+
+- Reviewed the evolution of machine learning from rule-based systems to modern deep learning and transformer architectures capable of complex data analysis and generation.
+- Identified the limitations of Recurrent Neural Networks (RNNs) in processing long sequences and understanding context due to sequential processing and memory decay.
+- Explored the "attention" mechanism, a core component of transformer models introduced in the "Attention is All You Need" paper, which enables weighting input token importance for improved contextual understanding and handling long-range dependencies.
+- Gained an understanding of the overall Transformer architecture, recognizing its encoder-decoder structure and its ability to process input words simultaneously, contrasting it with RNNs.
+- Detailed the initial step of creating input embeddings in the Transformer architecture, encompassing tokenization, vocabulary mapping, word embeddings, positional encoding, and handling sequence length variations.
+- Analyzed the multi-head attention mechanism within the encoder block, understanding its function in weighing token importance through query, key, and value vectors and enabling the model to capture diverse data patterns.
+Examined the role of the feedforward layer in the encoder block, recognizing its importance in learning complex, non-linear relationships between tokens through linear transformations and activation functions.
+- Investigated the masked multi-head attention mechanism in the decoder block, understanding how it enforces sequential output generation by preventing the model from accessing future tokens during training.
+- Deciphered the process of predicting final outputs in the decoder block, detailing how it combines information from the encoder and its own masked attention to generate a context vector for probabilistic prediction of the next token.
+
+**Resources:**
+
+- [notes.ipynb](./Section30/notes.ipynb)
+
+## Day 31: LLMs Module: Getting Started with GPT models
+
+**What I did today:**
+
+* Gained a foundational understanding of Large Language Models (LLMs), specifically ChatGPT, by exploring its "Generative Pre-trained Transformer" architecture and its core capabilities in text generation and completion.
+* Traced the evolutionary trajectory of GPT models, noting the significant increase in scale and performance from GPT-1 to GPT-4 and understanding ChatGPT's specific fine-tuning for conversational interactions.
+* Acquired practical knowledge on accessing and utilizing the OpenAI API, including the essential steps for creating and securely managing API keys and understanding the token-based pricing structure.
+* Developed hands-on experience with generating text using the OpenAI API through Python functions, learning how to structure API calls with prompts and interpret responses.
+* Mastered techniques for customizing GPT model outputs by experimenting with the `max_tokens` and `temperature` parameters to control response length and creativity.
+* Implemented a key word text summarization function using the OpenAI API's chat completion endpoint, demonstrating the use of system, user, and assistant roles to guide the model's output.
+* Constructed a simple chatbot with a defined persona (poetic) by strategically employing system messages and providing illustrative user-assistant message pairs to shape the model's response style.
+* Recognized the inherent knowledge limitations of standard LLMs due to training data cut-off dates and identified LangChain as a solution for integrating external, custom data.
+* Introduced the LangChain framework as an open-source solution for connecting LLMs with external data and computation, highlighting its role in building more powerful and data-aware applications.
+* Implemented a multi-step process using LangChain to add custom web data to a language model, involving data loading, text splitting, embedding creation, vector store utilization, and initializing a conversational retrieval chain for answering questions based on the custom data.
+
+**Resources:**
+
+- [notes.ipynb](./Section31/notes.ipynb)
+- [codes.ipynb](./Section31/codes.ipynb)
