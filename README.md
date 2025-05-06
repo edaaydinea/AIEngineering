@@ -1,4 +1,4 @@
-# AIEngineering 
+# AIEngineering
 
 This repository contains materials, notes, and code for the Udemy course: [**The AI Engineer Course - Complete AI Engineer Bootcamp**](https://www.udemy.com/course/the-ai-engineer-course-complete-ai-engineer-bootcamp). Additionally, it includes personal notes, insights, and projects created throughout the learning process.  
 
@@ -30,6 +30,7 @@ This repository contains materials, notes, and code for the Udemy course: [**The
     - [Day 29: LLMs Module: Introduction to Large Language Models](#day-29-llms-module-introduction-to-large-language-models)
   - [Day 30: LLMs Module: The Transformer Architecture](#day-30-llms-module-the-transformer-architecture)
   - [Day 31: LLMs Module: Getting Started with GPT models](#day-31-llms-module-getting-started-with-gpt-models)
+  - [Day 32: LLMs Module: Hugging Face Transformers](#day-32-llms-module-hugging-face-transformers)
 
 ---
 
@@ -93,7 +94,7 @@ python -m ipykernel install --user --name=nlp_course_env
 
 ## 📆 Daily Progress  
 
-A daily log to track learning progress, document challenges, and reflect on new concepts. 
+A daily log to track learning progress, document challenges, and reflect on new concepts.
 
 ### Day 1 - Day 19: Python Programming
 
@@ -152,7 +153,6 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [notes.ipynb](./Section22/notes.ipynb)
 - [codes.ipynb](./Section22/codes.ipynb)
 - [practical.ipynb](./Section22/practical.ipynb)
-
 
 ### Day 23: NLP Module: Sentiment Analysis
 
@@ -252,7 +252,6 @@ A daily log to track learning progress, document challenges, and reflect on new 
 
 - [codes.ipynb](./Section27/codes.ipynb)
 
-
 ### Day 28: NLP Module: The Future of NLP
 
 **What I did today:**
@@ -283,7 +282,6 @@ A daily log to track learning progress, document challenges, and reflect on new 
 
 - [notes.ipynb](./Section29/notes.ipynb)
 
-
 ## Day 30: LLMs Module: The Transformer Architecture
 
 **What I did today:**
@@ -306,18 +304,34 @@ Examined the role of the feedforward layer in the encoder block, recognizing its
 
 **What I did today:**
 
-* Gained a foundational understanding of Large Language Models (LLMs), specifically ChatGPT, by exploring its "Generative Pre-trained Transformer" architecture and its core capabilities in text generation and completion.
-* Traced the evolutionary trajectory of GPT models, noting the significant increase in scale and performance from GPT-1 to GPT-4 and understanding ChatGPT's specific fine-tuning for conversational interactions.
-* Acquired practical knowledge on accessing and utilizing the OpenAI API, including the essential steps for creating and securely managing API keys and understanding the token-based pricing structure.
-* Developed hands-on experience with generating text using the OpenAI API through Python functions, learning how to structure API calls with prompts and interpret responses.
-* Mastered techniques for customizing GPT model outputs by experimenting with the `max_tokens` and `temperature` parameters to control response length and creativity.
-* Implemented a key word text summarization function using the OpenAI API's chat completion endpoint, demonstrating the use of system, user, and assistant roles to guide the model's output.
-* Constructed a simple chatbot with a defined persona (poetic) by strategically employing system messages and providing illustrative user-assistant message pairs to shape the model's response style.
-* Recognized the inherent knowledge limitations of standard LLMs due to training data cut-off dates and identified LangChain as a solution for integrating external, custom data.
-* Introduced the LangChain framework as an open-source solution for connecting LLMs with external data and computation, highlighting its role in building more powerful and data-aware applications.
-* Implemented a multi-step process using LangChain to add custom web data to a language model, involving data loading, text splitting, embedding creation, vector store utilization, and initializing a conversational retrieval chain for answering questions based on the custom data.
+- Gained a foundational understanding of Large Language Models (LLMs), specifically ChatGPT, by exploring its "Generative Pre-trained Transformer" architecture and its core capabilities in text generation and completion.
+- Traced the evolutionary trajectory of GPT models, noting the significant increase in scale and performance from GPT-1 to GPT-4 and understanding ChatGPT's specific fine-tuning for conversational interactions.
+- Acquired practical knowledge on accessing and utilizing the OpenAI API, including the essential steps for creating and securely managing API keys and understanding the token-based pricing structure.
+- Developed hands-on experience with generating text using the OpenAI API through Python functions, learning how to structure API calls with prompts and interpret responses.
+- Mastered techniques for customizing GPT model outputs by experimenting with the `max_tokens` and `temperature` parameters to control response length and creativity.
+- Implemented a key word text summarization function using the OpenAI API's chat completion endpoint, demonstrating the use of system, user, and assistant roles to guide the model's output.
+- Constructed a simple chatbot with a defined persona (poetic) by strategically employing system messages and providing illustrative user-assistant message pairs to shape the model's response style.
+- Recognized the inherent knowledge limitations of standard LLMs due to training data cut-off dates and identified LangChain as a solution for integrating external, custom data.
+- Introduced the LangChain framework as an open-source solution for connecting LLMs with external data and computation, highlighting its role in building more powerful and data-aware applications.
+- Implemented a multi-step process using LangChain to add custom web data to a language model, involving data loading, text splitting, embedding creation, vector store utilization, and initializing a conversational retrieval chain for answering questions based on the custom data.
 
 **Resources:**
 
 - [notes.ipynb](./Section31/notes.ipynb)
 - [codes.ipynb](./Section31/codes.ipynb)
+
+## Day 32: LLMs Module: Hugging Face Transformers
+
+**What I did today:**
+
+- Gained a foundational understanding of Hugging Face as an open-source hub and the capabilities of its Transformers library for accessing, utilizing, and fine-tuning diverse Large Language Models (LLMs).
+- Acquired hands-on experience with the Hugging Face `pipeline` function, successfully implementing sentiment analysis, named entity recognition (NER), and zero-shot classification tasks.
+- Explored the intricacies of pre-trained tokenizers, including the use of `AutoTokenizer` for model-specific tokenization, and analyzed the structure of tokenizer outputs such as `input_ids`, `token_type_ids`, and `attention_mask` for models like BERT and XLNet.
+- Developed a clear understanding of various special tokens (e.g., [CLS], [SEP], [MASK], [PAD]) and their critical roles in structuring input, guiding model behavior for tasks like classification and masked language modeling, and ensuring correct input formatting across different LLMs.
+- Integrated Hugging Face Transformers with PyTorch, performing manual inference by tokenizing input to PyTorch tensors, loading pre-trained models such as `distilbert-base-uncased-finetuned-sst-2-english` with `AutoModelForSequenceClassification`, and interpreting model logits to retrieve human-readable labels.
+- Mastered the procedures for managing model lifecycles by saving trained models and tokenizers using `save_pretrained()` and efficiently reloading them for future use or deployment with `from_pretrained()`.
+- Enhanced conceptual knowledge regarding the importance of framework integration (PyTorch/TensorFlow), model-specific tokenization, the utility of the Hugging Face Model Hub, and the underlying mechanisms of high-level abstractions like the `pipeline` function.
+
+**Resources:**
+
+- [notes.ipynb](./Section32/notes.ipynb)
