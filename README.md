@@ -24,14 +24,12 @@ This repository contains materials, notes, and code for the Udemy course: [**The
     - [Day 25: NLP Module: Topic Modeling](#day-25-nlp-module-topic-modeling)
     - [Day 26: NLP Module: Building Your Own Text Classifier](#day-26-nlp-module-building-your-own-text-classifier)
     - [Day 27: NLP Module: Categorizing Fake News (Case Study)](#day-27-nlp-module-categorizing-fake-news-case-study)
-    - [🔍 Highlights](#-highlights)
-    - [📌 Notes \& Next Steps](#-notes--next-steps)
     - [Day 28: NLP Module: The Future of NLP](#day-28-nlp-module-the-future-of-nlp)
     - [Day 29: LLMs Module: Introduction to Large Language Models](#day-29-llms-module-introduction-to-large-language-models)
-  - [Day 30: LLMs Module: The Transformer Architecture](#day-30-llms-module-the-transformer-architecture)
-  - [Day 31: LLMs Module: Getting Started with GPT models](#day-31-llms-module-getting-started-with-gpt-models)
-  - [Day 32: LLMs Module: Hugging Face Transformers](#day-32-llms-module-hugging-face-transformers)
-  - [Day 33: LLMs Module: Question and Answer Models with BERT](#day-33-llms-module-question-and-answer-models-with-bert)
+    - [Day 30: LLMs Module: The Transformer Architecture](#day-30-llms-module-the-transformer-architecture)
+    - [Day 31: LLMs Module: Getting Started with GPT models](#day-31-llms-module-getting-started-with-gpt-models)
+    - [Day 32: LLMs Module: Hugging Face Transformers](#day-32-llms-module-hugging-face-transformers)
+    - [Day 33: LLMs Module: Question and Answer Models with BERT](#day-33-llms-module-question-and-answer-models-with-bert)
 
 ---
 
@@ -232,7 +230,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 
 ### Day 27: NLP Module: Categorizing Fake News (Case Study)
 
-### 🔍 Highlights
+**What I did today:**
 
 - Imported and utilized the `pandas` and `matplotlib.pyplot` libraries for data manipulation and plotting.
 - Loaded and explored a dataset related to fake and factual news articles.
@@ -241,13 +239,6 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - Evaluated the SVM model's performance using `accuracy_score` and `classification_report` from `sklearn.metrics`.
 - Achieved an accuracy of approximately 83% on the test set with the SVM model.
 - Generated a classification report showing precision, recall, and F1-score for both "Factual News" and "Fake News" categories.
-
-### 📌 Notes & Next Steps
-
-- Further analysis may involve exploring other classification models or refining the current SVM model.
-- Visualization of the classification results or data characteristics could enhance understanding.
-- Communication strategies for presenting findings to stakeholders should be developed.
-- Investigate methods to address the class imbalance, as indicated by the differences in support for each class.
 
 **Resources:**
 
@@ -283,7 +274,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 
 - [notes.ipynb](./Section29/notes.ipynb)
 
-## Day 30: LLMs Module: The Transformer Architecture
+### Day 30: LLMs Module: The Transformer Architecture
 
 **What I did today:**
 
@@ -301,7 +292,7 @@ Examined the role of the feedforward layer in the encoder block, recognizing its
 
 - [notes.ipynb](./Section30/notes.ipynb)
 
-## Day 31: LLMs Module: Getting Started with GPT models
+### Day 31: LLMs Module: Getting Started with GPT models
 
 **What I did today:**
 
@@ -321,7 +312,7 @@ Examined the role of the feedforward layer in the encoder block, recognizing its
 - [notes.ipynb](./Section31/notes.ipynb)
 - [codes.ipynb](./Section31/codes.ipynb)
 
-## Day 32: LLMs Module: Hugging Face Transformers
+### Day 32: LLMs Module: Hugging Face Transformers
 
 **What I did today:**
 
@@ -337,7 +328,7 @@ Examined the role of the feedforward layer in the encoder block, recognizing its
 
 - [notes.ipynb](./Section32/notes.ipynb)
 
-## Day 33: LLMs Module: Question and Answer Models with BERT
+### Day 33: LLMs Module: Question and Answer Models with BERT
 
 - Gained a foundational understanding of BERT's bidirectional nature and its advantages over autoregressive models like GPT for tasks requiring deep contextual understanding.
 - Explored the Transformer architecture as the backbone of BERT, recognizing how its attention mechanisms contribute to effective natural language processing.
