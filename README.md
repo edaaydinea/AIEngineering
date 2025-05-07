@@ -31,6 +31,7 @@ This repository contains materials, notes, and code for the Udemy course: [**The
   - [Day 30: LLMs Module: The Transformer Architecture](#day-30-llms-module-the-transformer-architecture)
   - [Day 31: LLMs Module: Getting Started with GPT models](#day-31-llms-module-getting-started-with-gpt-models)
   - [Day 32: LLMs Module: Hugging Face Transformers](#day-32-llms-module-hugging-face-transformers)
+  - [Day 33: LLMs Module: Question and Answer Models with BERT](#day-33-llms-module-question-and-answer-models-with-bert)
 
 ---
 
@@ -335,3 +336,33 @@ Examined the role of the feedforward layer in the encoder block, recognizing its
 **Resources:**
 
 - [notes.ipynb](./Section32/notes.ipynb)
+
+## Day 33: LLMs Module: Question and Answer Models with BERT
+
+- Gained a foundational understanding of BERT's bidirectional nature and its advantages over autoregressive models like GPT for tasks requiring deep contextual understanding.
+- Explored the Transformer architecture as the backbone of BERT, recognizing how its attention mechanisms contribute to effective natural language processing.
+- Learned about BERT's pre-training on large corpora and its impact on developing a generalized understanding of language patterns.
+- Identified BERT's suitability for specific NLP tasks such as sentiment analysis, question answering, and named entity recognition, distinguishing its strengths from GPT's generative capabilities.
+- Understood the implications of different BERT model sizes (Base and Large) on performance and computational requirements.
+- Delved into BERT's encoder-only architecture, differentiating it from encoder-decoder models and understanding its optimization for text representation.
+- Mastered the concept of BERT's three-part input embeddings (token, segment, and positional) and their role in providing comprehensive input information.
+- Comprehended the Masked Language Modeling (MLM) pre-training objective as a key enabler of BERT's bidirectional context learning.
+- Understood the Next Sentence Prediction (NSP) pre-training objective and its function in teaching BERT inter-sentence relationships.
+- Recognized BERT's adaptability through fine-tuning, allowing its powerful pre-trained representations to be specialized for various downstream NLP tasks.
+- Acquired practical skills in loading BERT models (specifically `bert-large-uncased-whole-word-masking-finetuned-squad`) and their corresponding tokenizers using the Hugging Face Transformers library.
+- Practiced preparing inputs for BERT by tokenizing questions and contexts with `tokenizer.encode_plus`, understanding the role of special tokens ([CLS], [SEP]) and token type IDs.
+- Successfully converted input encodings into PyTorch tensors for model consumption.
+- Learned to interpret BERT's output for question answering, specifically how start and end logits are used to predict answer spans.
+- Gained hands-on experience in extracting answer indices using `torch.argmax` and reconstructing human-readable answers from tokens.
+- Developed skills in visualizing token probabilities for start and end positions using `matplotlib` and `seaborn` to understand model decision-making.
+- Designed and implemented a prototype FAQ chatbot for "Sunset Motors" by defining a context, creating a core processing function, manually handling segment IDs, and performing model inference.
+- Incorporated answer span validation and text cleanup techniques to refine the chatbot's output.
+- Successfully tested the FAQ chatbot with various questions, demonstrating its ability to extract relevant information from the provided context.
+- Explored RoBERTa as a robustly optimized BERT variant, noting its improved pre-training strategies and performance benefits.
+- Investigated DistilBERT as a smaller, faster, and lightweight distilled version of BERT, suitable for resource-constrained environments.
+- Understood how to load and utilize RoBERTa and DistilBERT models and tokenizers via the Hugging Face Transformers library, recognizing their specific use cases.
+  
+**Resources:**
+
+- [notes.ipynb](./Section33/notes.ipynb)
+- [QAbot.ipynb](./Section33/QAbot.ipynb)
