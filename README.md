@@ -402,3 +402,25 @@ Examined the role of the feedforward layer in the encoder block, recognizing its
 **Resources:**
 
 - [notes.ipynb](./Section35/notes.ipynb)
+
+## Day 36: LangChain Module: Tokens, Models, and Prices
+
+**What I did today:**
+
+- Gained a comprehensive understanding of OpenAI's token-based economy, including token definition (approx. 3/4 of a word), model-specific pricing (e.g., GPT-4o: ~$2.50/M input, ~$10.00/M output as of late 2024/early 2025), and the impact of context window limits (e.g., 128,000 for GPT-4o) on project scope and budget.
+- Mastered the fundamentals of setting up a development environment for OpenAI and LangChain projects, including Anaconda configuration and API key management.
+- Acquired foundational knowledge of the OpenAI API, including chat prompting terminology crucial for effective LLM interaction and integration with LangChain.
+- Explored core components of the LangChain framework, such as model I/O, memory management, document retrieval mechanisms, agent capabilities, and the LangChain Expression Language (LCEL), to build advanced LLM applications.
+- Developed skills in crafting effective chat messages, utilizing prompt templates, and applying few-shot prompting techniques to guide LLM outputs accurately.
+- Understood the principles of creating stateful chatbots that maintain conversational context for more coherent and engaging user experiences.
+- Learned techniques for output parsing, enabling the conversion of LLM responses into various data formats (string, list, DateTime) for seamless integration with other applications and tools.
+- Grasped the significance of the LangChain Expression Language (LCEL) as the cornerstone for constructing complex chains and workflows within the LangChain ecosystem.
+- Investigated Retrieval Augmented Generation (RAG) to empower LLMs with custom, up-to-date information, enabling more accurate and contextually relevant responses.
+- Explored the use of external tools and agents within LangChain, allowing LLMs to perform complex, multi-step tasks and exhibit enhanced reasoning capabilities.
+- Reviewed essential Python prerequisites and the importance of foundational generative AI knowledge for effectively leveraging LangChain and LLMs.
+- Identified key criteria for model selection, including cost, training data recency (e.g., GPT-4o cut-off October 2023), and context window size, to optimize for specific project requirements.
+- Became familiar with specific OpenAI models, including the flagship GPT-4o and embedding models like `text-embedding-3-small`, and their respective roles in NLP tasks.
+
+**Resources:**
+
+- [notes.ipynb](./Section36/notes.ipynb)
