@@ -6,32 +6,36 @@ This repository contains materials, notes, and code for the Udemy course: [**The
 
 ## 📑 Table of Contents
 
-* [AIEngineering](#aiengineering)
-  * [📑 Table of Contents](#-table-of-contents)
-  * [📦 Installed Packages](#-installed-packages)
-  * [🏗️ Setting Up the Conda Environment](#%EF%B8%8F-setting-up-the-conda-environment)
-    * [1️⃣ Create and Activate the Environment](#1%EF%B8%8F%E2%83%A3-create-and-activate-the-environment)
-    * [2️⃣ Install Required Packages](#2%EF%B8%8F%E2%83%A3-install-required-packages)
-    * [3️⃣ Download Language Model for spaCy](#3%EF%B8%8F%E2%83%A3-download-language-model-for-spacy)
-    * [4️⃣ Install Jupyter & Configure Kernel](#4%EF%B8%8F%E2%83%A3-install-jupyter--configure-kernel)
-  * [📆 Daily Progress](#-daily-progress)
-    * [Day 1 - Day 19: Python Programming](#day-1---day-19-python-programming)
-    * [Day 20: NLP Module: Introduction](#day-20-nlp-module-introduction)
-    * [Day 21: NLP Module: Text Preprocessing](#day-21-nlp-module-text-preprocessing)
-    * [Day 22: NLP Module: Identifying Parts of Speech and Named Entities](#day-22-nlp-module-identifying-parts-of-speech-and-named-entities)
-    * [Day 23: NLP Module: Sentiment Analysis](#day-23-nlp-module-sentiment-analysis)
-    * [Day 24: NLP Module: Vectorizing Text](#day-24-nlp-module-vectorizing-text)
-    * [Day 25: NLP Module: Topic Modeling](#day-25-nlp-module-topic-modeling)
-    * [Day 26: NLP Module: Building Your Own Text Classifier](#day-26-nlp-module-building-your-own-text-classifier)
-    * [Day 27: NLP Module: Categorizing Fake News (Case Study)](#day-27-nlp-module-categorizing-fake-news-case-study)
-    * [Day 28: NLP Module: The Future of NLP](#day-28-nlp-module-the-future-of-nlp)
-    * [Day 29: LLMs Module: Introduction to Large Language Models](#day-29-llms-module-introduction-to-large-language-models)
-    * [Day 30: LLMs Module: The Transformer Architecture](#day-30-llms-module-the-transformer-architecture)
-    * [Day 31: LLMs Module: Getting Started with GPT models](#day-31-llms-module-getting-started-with-gpt-models)
-    * [Day 32: LLMs Module: Hugging Face Transformers](#day-32-llms-module-hugging-face-transformers)
-    * [Day 33: LLMs Module: Question and Answer Models with BERT](#day-33-llms-module-question-and-answer-models-with-bert)
-  * [Day 34: LLms Module: Text Classification with XLNet](#day-34-llms-module-text-classification-with-xlnet)
-  * [Day 35: LangChain Module: Introduction](#day-35-langchain-module-introduction)
+- [AIEngineering](#aiengineering)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [📦 Installed Packages](#-installed-packages)
+  - [🏗️ Setting Up the Conda Environment](#️-setting-up-the-conda-environment)
+    - [1️⃣ Create and Activate the Environment](#1️⃣-create-and-activate-the-environment)
+    - [2️⃣ Install Required Packages](#2️⃣-install-required-packages)
+    - [3️⃣ Download Language Model for spaCy](#3️⃣-download-language-model-for-spacy)
+    - [4️⃣ Install Jupyter \& Configure Kernel](#4️⃣-install-jupyter--configure-kernel)
+  - [📆 Daily Progress](#-daily-progress)
+    - [Day 1 - Day 19: Python Programming](#day-1---day-19-python-programming)
+    - [Day 20: NLP Module: Introduction](#day-20-nlp-module-introduction)
+    - [Day 21: NLP Module: Text Preprocessing](#day-21-nlp-module-text-preprocessing)
+    - [Day 22: NLP Module: Identifying Parts of Speech and Named Entities](#day-22-nlp-module-identifying-parts-of-speech-and-named-entities)
+    - [Day 23: NLP Module: Sentiment Analysis](#day-23-nlp-module-sentiment-analysis)
+    - [Day 24: NLP Module: Vectorizing Text](#day-24-nlp-module-vectorizing-text)
+    - [Day 25: NLP Module: Topic Modeling](#day-25-nlp-module-topic-modeling)
+    - [Day 26: NLP Module: Building Your Own Text Classifier](#day-26-nlp-module-building-your-own-text-classifier)
+    - [Day 27: NLP Module: Categorizing Fake News (Case Study)](#day-27-nlp-module-categorizing-fake-news-case-study)
+    - [Day 28: NLP Module: The Future of NLP](#day-28-nlp-module-the-future-of-nlp)
+    - [Day 29: LLMs Module: Introduction to Large Language Models](#day-29-llms-module-introduction-to-large-language-models)
+    - [Day 30: LLMs Module: The Transformer Architecture](#day-30-llms-module-the-transformer-architecture)
+    - [Day 31: LLMs Module: Getting Started with GPT models](#day-31-llms-module-getting-started-with-gpt-models)
+    - [Day 32: LLMs Module: Hugging Face Transformers](#day-32-llms-module-hugging-face-transformers)
+    - [Day 33: LLMs Module: Question and Answer Models with BERT](#day-33-llms-module-question-and-answer-models-with-bert)
+  - [Day 34: LLms Module: Text Classification with XLNet](#day-34-llms-module-text-classification-with-xlnet)
+  - [Day 35: LangChain Module: Introduction](#day-35-langchain-module-introduction)
+  - [Day 36: LangChain Module: Tokens, Models, and Prices](#day-36-langchain-module-tokens-models-and-prices)
+  - [Day 37: LangChain Module: Setting Up the Environment](#day-37-langchain-module-setting-up-the-environment)
+  - [Day 38: LangChain Module: The OpenAI API](#day-38-langchain-module-the-openai-api)
+  - [Day 39: LangChain Module: Model Inputs](#day-39-langchain-module-model-inputs)
 
 ---
 
@@ -465,3 +469,23 @@ A daily log to track learning progress, document challenges, and reflect on new 
 * [codes1.ipynb](./Section38/codes1.ipynb)
 * [codes2.ipynb](./Section38/codes2.ipynb)
 * [codes3.ipynb](./Section38/codes3.ipynb)
+
+
+## Day 39: LangChain Module: Model Inputs
+
+**What I did today:**
+
+* Acquired a foundational understanding of the LangChain framework, covering its core components (Model I/O, Retrieval, Agents) and its utility in developing sophisticated, stateful, and context-aware LLM applications.
+* Successfully configured the LangChain development environment, including essential library installations (`langchain`, `langchain-openai`) and secure OpenAI API key setup.
+* Mastered direct interaction with OpenAI chat models (e.g., GPT-4) via the `ChatOpenAI` class, effectively utilizing parameters like `model_name`, `seed`, `temperature`, and `max_tokens` to control and refine responses.
+* Developed practical experience in structuring LLM conversations using `SystemMessage` to set AI personas and `HumanMessage` for user inputs, and invoking models with ordered message lists for nuanced contextual control.
+* Applied few-shot prompting techniques by constructing explicit `HumanMessage` and `AIMessage` pairs to guide model output style and behavior through illustrative examples.
+* Enhanced prompt engineering skills by creating dynamic and reusable prompts with string `PromptTemplate`, generating populated `StringPromptValue` objects for LLM interaction.
+* Utilized `ChatPromptTemplate` to systematically manage and format multi-message sequences for chat models, combining `SystemMessagePromptTemplate` and `HumanMessagePromptTemplate` to produce `ChatPromptValue` objects.
+* Implemented an advanced and scalable strategy for few-shot prompting in chat applications using `FewShotChatMessagePromptTemplate`, successfully guiding model tone and behavior with structured example sets.
+* Explored the `LLMChain` class, understanding its role in directly connecting language models with prompt templates and processing their dictionary-based input/output.
+* Grasped the significance of sequential component invocation (e.g., `template.invoke()` output feeding `model.invoke()`) as a core LangChain pattern and a precursor to the LangChain Expression Language (LCEL).
+* Conceptualized the role of Output Parsers for structuring LLM outputs and the principles of Retrieval Augmented Generation (RAG) using LangChain's Retrieval module for building context-aware systems.
+
+**Resources:**
+* [notes.ipynb](./Section39/notes.ipynb)
