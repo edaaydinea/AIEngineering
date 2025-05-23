@@ -40,7 +40,6 @@ This repository contains materials, notes, and code for the Udemy course: [**The
   - [Day 41: LangChain Module: Output Parsers](#day-41-langchain-module-output-parsers)
   - [Day 42: LangChain Module: LangChain Expression Language (LCEL)](#day-42-langchain-module-langchain-expression-language-lcel)
   - [Day 43: LangChain Module: Retrieval Augmented Generation (RAG)](#day-43-langchain-module-retrieval-augmented-generation-rag)
-  - [Day 44: LangChain Module: Tools and Agents](#day-44-langchain-module-tools-and-agents)
 
 ---
 
@@ -603,23 +602,3 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [codes10.ipynb](./Section43/codes10.ipynb)
 - [codes11.ipynb](./Section43/codes11.ipynb)
 - [codes12.ipynb](./Section43/codes12.ipynb)
-
-## Day 44: LangChain Module: Tools and Agents
-
-**What I did today:**
-
-- Developed a strong conceptual understanding of LangChain agents, including their ability to reason, dynamically select tools, and orchestrate multi-step task execution, moving beyond simple context awareness to enable LLM-driven actions.
-- Learned the core architecture of LangChain agents, encompassing tools (defined by clear names, descriptions, and input schemas), toolkits, the agent chain structure (prompt with `agent_scratchpad`, LLM, output parser producing `AgentAction` or `AgentFinish`), and the role of the `AgentExecutor` in managing the iterative reasoning loop.
-- Gained practical experience in creating and integrating various tools for LangChain agents, including using the `WikipediaTool`, creating specialized data retrieval tools from vector stores with `create_retriever_tool`, and converting custom Python functions into tools using the `@tool` decorator.
-- Utilized LangChain Hub to fetch and inspect pre-defined agent prompt templates (e.g., `"hwchase17/openai-tools-agent"`), understanding the critical role of placeholders like `input`, optional `chat_history`, and particularly `agent_scratchpad` for enabling iterative reasoning.
-- Successfully constructed and ran a tool-calling agent using `create_tool_calling_agent` and `AgentExecutor`, configuring it with `verbose=True` and `return_intermediate_steps=True` to observe its decision-making process (tool selection, inputs, observations) transparently.
-- Witnessed and analyzed the agent's capability to handle complex, multi-tool queries by observing its problem decomposition and sequential invocation of different tools (e.g., a custom data retriever followed by multiple Wikipedia searches) to synthesize comprehensive answers.
-
-**Resources:**
-
-- [notes.ipynb](./Section44/notes.ipynb)
-- [codes1.ipynb](./Section44/codes1.ipynb)
-- [codes2.ipynb](./Section44/codes2.ipynb)
-- [codes3.ipynb](./Section44/codes3.ipynb)
-- [codes4.ipynb](./Section44/codes4.ipynb)
-- [codes5.ipynb](./Section44/codes5.ipynb)
