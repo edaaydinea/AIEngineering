@@ -39,6 +39,7 @@ This repository contains materials, notes, and code for the Udemy course: [**The
   - [Day 40: LangChain Module: Message History and Chatbot Memory](#day-40-langchain-module-message-history-and-chatbot-memory)
   - [Day 41: LangChain Module: Output Parsers](#day-41-langchain-module-output-parsers)
   - [Day 42: LangChain Module: LangChain Expression Language (LCEL)](#day-42-langchain-module-langchain-expression-language-lcel)
+  - [Day 43: LangChain Module: Retrieval Augmented Generation (RAG)](#day-43-langchain-module-retrieval-augmented-generation-rag)
 
 ---
 
@@ -572,3 +573,32 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [codes12.ipynb](./Section42/codes12.ipynb)
 - [codes13.ipynb](./Section42/codes13.ipynb)
 - [codes14.ipynb](./Section42/codes14.ipynb)
+
+## Day 43: LangChain Module: Retrieval Augmented Generation (RAG)
+
+**What I did today:**
+
+- Gained a comprehensive understanding of methods for integrating custom data with LLMs, focusing on Retrieval Augmented Generation (RAG) and its core components: Indexing (loading, splitting, embedding, storing), Retrieval (similarity search, diverse retrieval methods), and Generation (context-aware response formulation).
+- Mastered document loading for various formats (PDFs with `PyPDFLoader`, DOCX with `Docx2txtLoader`) into LangChain `Document` objects, including practical text preprocessing techniques such as newline removal for token optimization and cost efficiency.
+- Explored and implemented multiple document splitting strategies in LangChain, including character-based splitting with `CharacterTextSplitter` (configuring chunk size, overlap, and separators) and semantic splitting using markdown headers with `MarkdownHeaderTextSplitter` for improved topical coherence and metadata enrichment.
+- Successfully generated high-dimensional text embeddings from processed document chunks using OpenAI models via LangChain, and quantitatively measured semantic similarity between them using dot products with NumPy, confirming vector normalization and its implications for cosine similarity (where for normalized vectors, $\cos \theta = \vec{a} \cdot \vec{b}$).
+- Developed hands-on proficiency in creating, persisting, and loading Chroma vector stores, including batch embedding of documents and performing CRUD operations (add, get, update, delete documents) to effectively manage the vector store's content lifecycle.
+- Implemented and compared different document retrieval strategies, including basic `similarity_search` and advanced `Maximal Marginal Relevance (MMR)` search, leveraging metadata filtering to enhance result diversity and relevance for improved contextual input to LLMs.
+- Constructed an end-to-end Retrieval Augmented Generation (RAG) pipeline using LangChain Expression Language (LCEL), by creating a runnable retriever object (`as_retriever()`) and chaining it with dynamic prompt templates (utilizing `RunnableParallel` and `RunnablePassthrough`), an LLM (`ChatOpenAI`), and an output parser (`StrOutputParser`).
+- Applied the "stuffing" method to inject retrieved context into LLM prompts for response generation, critically evaluated its advantages and limitations (such as context window constraints and the "lost in the middle" problem), and was introduced to alternative strategies like "document refinement" for handling extensive contextual information.
+
+**Resources:**
+
+- [notes.ipynb](./Section43/notes.ipynb)
+- [codes1.ipynb](./Section43/codes1.ipynb)
+- [codes2.ipynb](./Section43/codes2.ipynb)
+- [codes3.ipynb](./Section43/codes3.ipynb)
+- [codes4.ipynb](./Section43/codes4.ipynb)
+- [codes5.ipynb](./Section43/codes5.ipynb)
+- [codes6.ipynb](./Section43/codes6.ipynb)
+- [codes7.ipynb](./Section43/codes7.ipynb)
+- [codes8.ipynb](./Section43/codes8.ipynb)
+- [codes9.ipynb](./Section43/codes9.ipynb)
+- [codes10.ipynb](./Section43/codes10.ipynb)
+- [codes11.ipynb](./Section43/codes11.ipynb)
+- [codes12.ipynb](./Section43/codes12.ipynb)
