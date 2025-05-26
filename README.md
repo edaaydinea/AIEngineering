@@ -41,6 +41,7 @@ This repository contains materials, notes, and code for the Udemy course: [**The
   - [Day 42: LangChain Module: LangChain Expression Language (LCEL)](#day-42-langchain-module-langchain-expression-language-lcel)
   - [Day 43: LangChain Module: Retrieval Augmented Generation (RAG)](#day-43-langchain-module-retrieval-augmented-generation-rag)
   - [Day 44: LangChain Module: Tools and Agents](#day-44-langchain-module-tools-and-agents)
+  - [Day 45: Vector Databases Module: Introduction](#day-45-vector-databases-module-introduction)
 
 ---
 
@@ -623,3 +624,22 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [codes3.ipynb](./Section44/codes3.ipynb)
 - [codes4.ipynb](./Section44/codes4.ipynb)
 - [codes5.ipynb](./Section44/codes5.ipynb)
+
+## Day 45: Vector Databases Module: Introduction
+
+**What I did today:**
+
+- Reviewed the increasing importance of vector databases in business and data science, covering their theoretical foundations (vector space, search algorithms) and practical implementation aspects.
+- Understood the power of semantic search enabled by vector databases, which identifies similarities based on contextual meaning rather than exact keyword matches, and its versatility across data types like text, images, and audio.
+- Compared and contrasted SQL, NoSQL, and vector databases:
+  - SQL databases: Ideal for structured, relational data requiring transactional integrity.
+  - NoSQL databases: Offer flexible, scalable solutions for varied and large-scale data.
+  - Vector databases: Specialized in managing high-dimensional vector data crucial for AI/ML applications like semantic search and recommendation systems.
+- Learned about high-dimensional vector spaces in vector databases and their importance in representing complex data (text, images, audio) for AI tasks.
+- Explored the core capability of vector databases in performing similarity searches by measuring distances between numerical vectors, which are transformations of complex data.
+- Identified real-world applications of vector databases, such as reverse image search, personalized recommendations (music, fashion), advanced query matching (healthcare, customer service), and fraud detection.
+- Recognized the driving forces behind the growing adoption of vector databases, including escalating data volumes and the demand for sophisticated AI-driven insights.
+
+**Resources:**
+
+- [notes.ipynb](./Section45/notes.ipynb)
