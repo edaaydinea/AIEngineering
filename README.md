@@ -42,6 +42,7 @@ This repository contains materials, notes, and code for the Udemy course: [**The
   - [Day 43: LangChain Module: Retrieval Augmented Generation (RAG)](#day-43-langchain-module-retrieval-augmented-generation-rag)
   - [Day 44: LangChain Module: Tools and Agents](#day-44-langchain-module-tools-and-agents)
   - [Day 45: Vector Databases Module: Introduction](#day-45-vector-databases-module-introduction)
+  - [Day 46: Vector Databases Module: Basics of Vector Space and High-Dimensional Data](#day-46-vector-databases-module-basics-of-vector-space-and-high-dimensional-data)
 
 ---
 
@@ -643,3 +644,24 @@ A daily log to track learning progress, document challenges, and reflect on new 
 **Resources:**
 
 - [notes.ipynb](./Section45/notes.ipynb)
+
+
+## Day 46: Vector Databases Module: Basics of Vector Space and High-Dimensional Data
+
+**What I did today:**
+
+- Understood vector spaces as foundational mathematical structures for representing data as multi-dimensional vectors in vector databases, enabling powerful similarity searches.
+- Learned that data (images, text, products) is transformed into vectors in vector databases, with each dimension quantifying a specific attribute for computational analysis.
+- Recognized that similarity in vector databases is determined by the proximity of vectors, crucial for recommendation engines, anomaly detection, and semantic search.
+- Explored how data is encoded into numerical vectors for compatibility with vector databases, ranging from simple assignments to sophisticated feature extraction.
+- Reviewed various distance metrics (Euclidean, Manhattan, Dot Product, Cosine Similarity) used to quantify similarity between vectors, each suited for different data types and application goals.
+- Understood that Euclidean distance measures the straight-line distance, Manhattan distance sums absolute differences along Cartesian coordinates, Dot Product reflects alignment and magnitude, and Cosine Similarity measures the angle between vectors, focusing on orientation.
+- Learned about the embedding process in NLP and ML, where raw data is transformed into dense vector representations (embeddings) that capture semantic meaning and context.
+- Recognized that embeddings are essential for machines to process complex data by converting it into structured numerical vectors.
+- Understood that modern embeddings capture contextual meaning, representing the same word differently based on its surrounding context.
+- Noted that practical embeddings use high dimensionality (hundreds or thousands of dimensions) to capture subtle and complex data relationships.
+
+**Resources:**
+
+- [notes.ipynb](./Section46/notes.ipynb)
+
