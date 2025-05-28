@@ -43,6 +43,7 @@ This repository contains materials, notes, and code for the Udemy course: [**The
   - [Day 44: LangChain Module: Tools and Agents](#day-44-langchain-module-tools-and-agents)
   - [Day 45: Vector Databases Module: Introduction](#day-45-vector-databases-module-introduction)
   - [Day 46: Vector Databases Module: Basics of Vector Space and High-Dimensional Data](#day-46-vector-databases-module-basics-of-vector-space-and-high-dimensional-data)
+  - [Day 47: Vector Databases Module: Introduction to The Pinecone Vector Database](#day-47-vector-databases-module-introduction-to-the-pinecone-vector-database)
 
 ---
 
@@ -664,4 +665,25 @@ A daily log to track learning progress, document challenges, and reflect on new 
 **Resources:**
 
 - [notes.ipynb](./Section46/notes.ipynb)
+
+## Day 47: Vector Databases Module: Introduction to The Pinecone Vector Database
+
+**What I did today:**
+
+- Reviewed popular vector databases (Pinecone, Milvus, Weaviate, Qdrant), comparing their strengths, weaknesses, and ideal use cases, and understood the rationale for using Pinecone in the course.
+- Learned about the trade-offs between managed services (like Pinecone) and self-hosted open-source solutions, impacting scalability, cost, and control.
+- Explored Pinecone's features, including its passwordless registration, workspace organization, API key management, and the limitations of the free "starter" plan.
+- Mastered the creation of a Pinecone index, defining critical parameters like name, vector dimensions (which must match the embedding model), and similarity metric.
+- Established a secure connection to Pinecone using Python, emphasizing the use of `.env` files for storing API keys and environment identifiers.
+- Verified Pinecone connection by listing existing indexes programmatically.
+- Learned to programmatically create and delete Pinecone indexes in Python, including checking for an index's existence before creation to prevent errors.
+- Understood and implemented the "upsert" operation to add or update data in a Pinecone index, formatting data as a list of tuples (ID, vector_values, metadata).
+- Recognized the critical impact of data representation (feature choice and dimensionality) on similarity search quality.
+- Practiced loading large text datasets (e.g., Hugging Face "FineWeb") using `IterableDataset` for memory-efficient processing.
+- Converted text data to vector embeddings using a sentence transformer model, ensuring the Pinecone index dimension matched the embedding model's output (e.g., 384 dimensions).
+- Implemented batch upserting to efficiently upload vectors and associated metadata to Pinecone, handling a subset of a large dataset for practical demonstration.
+
+**Resources:**
+
+- [notes.ipynb](./Section47/notes.ipynb)
 
