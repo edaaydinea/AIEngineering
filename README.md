@@ -44,6 +44,7 @@ This repository contains materials, notes, and code for the Udemy course: [**The
   - [Day 45: Vector Databases Module: Introduction](#day-45-vector-databases-module-introduction)
   - [Day 46: Vector Databases Module: Basics of Vector Space and High-Dimensional Data](#day-46-vector-databases-module-basics-of-vector-space-and-high-dimensional-data)
   - [Day 47: Vector Databases Module: Introduction to The Pinecone Vector Database](#day-47-vector-databases-module-introduction-to-the-pinecone-vector-database)
+  - [Day 48: Vector Databases Module: Semantic Search with Pinecone and Custom (Case Study)](#day-48-vector-databases-module-semantic-search-with-pinecone-and-custom-case-study)
 
 ---
 
@@ -520,12 +521,12 @@ A daily log to track learning progress, document challenges, and reflect on new 
 **Resources:**
 
 - [notes.ipynb](./Section40/notes.ipynb)
-- [codes1.ipynb](./Section40/codes1.ipynb)
-- [codes2.ipynb](./Section40/codes2.ipynb)
-- [codes3.ipynb](./Section40/codes3.ipynb)
-- [codes4.ipynb](./Section40/codes4.ipynb)
-- [codes5.ipynb](./Section40/codes5.ipynb)
-- [codes6.ipynb](./Section40/codes6.ipynb)
+- [codes1.ipynb](./Section40/codes.ipynb)
+- [codes2.ipynb](./Section40/codes.ipynb)
+- [codes3.ipynb](./Section40/codes.ipynb)
+- [codes4.ipynb](./Section40/codes.ipynb)
+- [codes5.ipynb](./Section40/codes.ipynb)
+- [codes6.ipynb](./Section40/codes.ipynb)
 
 ## Day 41: LangChain Module: Output Parsers
 
@@ -686,4 +687,24 @@ A daily log to track learning progress, document challenges, and reflect on new 
 **Resources:**
 
 - [notes.ipynb](./Section47/notes.ipynb)
+
+## Day 48: Vector Databases Module: Semantic Search with Pinecone and Custom (Case Study)
+
+**What I did today:**
+
+- Understood semantic search as a method to find information based on meaning, contrasting it with traditional keyword-based search, and outlined a case study using Pinecone with existing tabular data.
+- Analyzed the deficiencies of exact-match search on educational platforms and proposed semantic search at course and section levels to improve content discoverability, focusing on retrieval accuracy over generative AI summarization.
+- Learned to prepare tabular data for semantic search by merging relevant text columns (e.g., course name, slug, technology, topic) into a single descriptive string per record using Python and pandas to create richer vector embeddings.
+- Securely managed API credentials using `.env` files and established connections to Pinecone, covering library imports, `python-dotenv` usage (including IPython magic commands), and Pinecone client initialization.
+- Reviewed the evolution of text embedding algorithms from traditional methods (BoW, TF-IDF) to context-aware models (Word2Vec, BERT, ELMo), emphasizing the role of contextual understanding and introducing the Sentence Transformers library.
+- Generated vector embeddings from course descriptions using Sentence Transformers, ensuring the embedding model's output dimension matched the Pinecone index configuration, and upserted these into Pinecone.
+- Implemented semantic search in Python by vectorizing text queries, using Pinecone's `query()` function with `top_k` and `include_metadata=True`, and refined results using score thresholding and robust metadata handling with `.get()`.
+- Recognized that data quality and granularity are often more critical than the choice of embedding algorithm for search effectiveness and explored strategies to incorporate section-level details by creating composite IDs and rich metadata for each course-section pair.
+- Upserted section-level data (IDs, embeddings, metadata) into a new Pinecone index and verified the process and metadata utility on the Pinecone platform, noting its basic filtering capabilities.
+- Improved search relevance significantly by switching to a BERT-based embedding model (768 dimensions) optimized for semantic search, in conjunction with the granular section-level data, which successfully surfaced previously missed relevant content.
+- Explored the broader applications of vector databases, including item-based and user-based recommendation systems, semantic image search (leveraging CNNs or Siamese Networks for embeddings), and their use in biomedical research for tasks like drug discovery and gene expression analysis.
+
+**Resources:**
+
+- [notes.ipynb](./Section48/notes.ipynb)
 
