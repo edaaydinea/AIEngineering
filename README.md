@@ -30,22 +30,22 @@ This repository contains materials, notes, and code for the Udemy course: [**The
     - [Day 31: LLMs Module: Getting Started with GPT models](#day-31-llms-module-getting-started-with-gpt-models)
     - [Day 32: LLMs Module: Hugging Face Transformers](#day-32-llms-module-hugging-face-transformers)
     - [Day 33: LLMs Module: Question and Answer Models with BERT](#day-33-llms-module-question-and-answer-models-with-bert)
-  - [Day 34: LLms Module: Text Classification with XLNet](#day-34-llms-module-text-classification-with-xlnet)
-  - [Day 35: LangChain Module: Introduction](#day-35-langchain-module-introduction)
-  - [Day 36: LangChain Module: Tokens, Models, and Prices](#day-36-langchain-module-tokens-models-and-prices)
-  - [Day 37: LangChain Module: Setting Up the Environment](#day-37-langchain-module-setting-up-the-environment)
-  - [Day 38: LangChain Module: The OpenAI API](#day-38-langchain-module-the-openai-api)
-  - [Day 39: LangChain Module: Model Inputs](#day-39-langchain-module-model-inputs)
-  - [Day 40: LangChain Module: Message History and Chatbot Memory](#day-40-langchain-module-message-history-and-chatbot-memory)
-  - [Day 41: LangChain Module: Output Parsers](#day-41-langchain-module-output-parsers)
-  - [Day 42: LangChain Module: LangChain Expression Language (LCEL)](#day-42-langchain-module-langchain-expression-language-lcel)
-  - [Day 43: LangChain Module: Retrieval Augmented Generation (RAG)](#day-43-langchain-module-retrieval-augmented-generation-rag)
-  - [Day 44: LangChain Module: Tools and Agents](#day-44-langchain-module-tools-and-agents)
-  - [Day 45: Vector Databases Module: Introduction](#day-45-vector-databases-module-introduction)
-  - [Day 46: Vector Databases Module: Basics of Vector Space and High-Dimensional Data](#day-46-vector-databases-module-basics-of-vector-space-and-high-dimensional-data)
-  - [Day 47: Vector Databases Module: Introduction to The Pinecone Vector Database](#day-47-vector-databases-module-introduction-to-the-pinecone-vector-database)
-  - [Day 48: Vector Databases Module: Semantic Search with Pinecone and Custom (Case Study)](#day-48-vector-databases-module-semantic-search-with-pinecone-and-custom-case-study)
-  - [Day 49: Speech Recognition Module: Introduction](#day-49-speech-recognition-module-introduction)
+    - [Day 34: LLms Module: Text Classification with XLNet](#day-34-llms-module-text-classification-with-xlnet)
+    - [Day 35: LangChain Module: Introduction](#day-35-langchain-module-introduction)
+    - [Day 36: LangChain Module: Tokens, Models, and Prices](#day-36-langchain-module-tokens-models-and-prices)
+    - [Day 37: LangChain Module: Setting Up the Environment](#day-37-langchain-module-setting-up-the-environment)
+    - [Day 38: LangChain Module: The OpenAI API](#day-38-langchain-module-the-openai-api)
+    - [Day 39: LangChain Module: Model Inputs](#day-39-langchain-module-model-inputs)
+    - [Day 40: LangChain Module: Message History and Chatbot Memory](#day-40-langchain-module-message-history-and-chatbot-memory)
+    - [Day 41: LangChain Module: Output Parsers](#day-41-langchain-module-output-parsers)
+    - [Day 42: LangChain Module: LangChain Expression Language (LCEL)](#day-42-langchain-module-langchain-expression-language-lcel)
+    - [Day 43: LangChain Module: Retrieval Augmented Generation (RAG)](#day-43-langchain-module-retrieval-augmented-generation-rag)
+    - [Day 44: LangChain Module: Tools and Agents](#day-44-langchain-module-tools-and-agents)
+    - [Day 45: Vector Databases Module: Introduction](#day-45-vector-databases-module-introduction)
+    - [Day 46: Vector Databases Module: Basics of Vector Space and High-Dimensional Data](#day-46-vector-databases-module-basics-of-vector-space-and-high-dimensional-data)
+    - [Day 47: Vector Databases Module: Introduction to The Pinecone Vector Database](#day-47-vector-databases-module-introduction-to-the-pinecone-vector-database)
+    - [Day 48: Vector Databases Module: Semantic Search with Pinecone and Custom (Case Study)](#day-48-vector-databases-module-semantic-search-with-pinecone-and-custom-case-study)
+    - [Day 49: Speech Recognition Module: Introduction](#day-49-speech-recognition-module-introduction)
 
 ---
 
@@ -376,7 +376,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [notes.ipynb](./Section33/notes.ipynb)
 - [QAbot.ipynb](./Section33/QAbot.ipynb)
 
-## Day 34: LLms Module: Text Classification with XLNet
+### Day 34: LLms Module: Text Classification with XLNet
 
 **What I did today:**
 
@@ -398,7 +398,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [notes.ipynb](./Section34/notes.ipynb)
 - [codes.ipynb](./Section34/codes.ipynb)
 
-## Day 35: LangChain Module: Introduction
+### Day 35: LangChain Module: Introduction
 
 **What I did today:**
 
@@ -417,7 +417,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 
 - [notes.ipynb](./Section35/notes.ipynb)
 
-## Day 36: LangChain Module: Tokens, Models, and Prices
+### Day 36: LangChain Module: Tokens, Models, and Prices
 
 **What I did today:**
 
@@ -439,7 +439,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 
 - [notes.ipynb](./Section36/notes.ipynb)
 
-## Day 37: LangChain Module: Setting Up the Environment
+### Day 37: LangChain Module: Setting Up the Environment
 
 **What I did today:**
 
@@ -456,7 +456,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [notes.ipynb](./Section37/notes.ipynb)
 - [codes.ipynb](./Section37/codes.ipynb)
 
-## Day 38: LangChain Module: The OpenAI API
+### Day 38: LangChain Module: The OpenAI API
 
 **What I did today:**
 
@@ -480,7 +480,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [codes2.ipynb](./Section38/codes2.ipynb)
 - [codes3.ipynb](./Section38/codes3.ipynb)
 
-## Day 39: LangChain Module: Model Inputs
+### Day 39: LangChain Module: Model Inputs
 
 **What I did today:**
 
@@ -507,7 +507,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [codes6.ipynb](./Section39/codes6.ipynb)
 - [codes7.ipynb](./Section39/codes7.ipynb)
 
-## Day 40: LangChain Module: Message History and Chatbot Memory
+### Day 40: LangChain Module: Message History and Chatbot Memory
 
 **What I did today:**
 
@@ -529,7 +529,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [codes5.ipynb](./Section40/codes.ipynb)
 - [codes6.ipynb](./Section40/codes.ipynb)
 
-## Day 41: LangChain Module: Output Parsers
+### Day 41: LangChain Module: Output Parsers
 
 **What I did today:**
 
@@ -548,7 +548,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [codes2.ipynb](./Section41/codes2.ipynb)
 - [codes3.ipynb](./Section41/codes3.ipynb)
 
-## Day 42: LangChain Module: LangChain Expression Language (LCEL)
+### Day 42: LangChain Module: LangChain Expression Language (LCEL)
 
 **What I did today:**
 
@@ -580,7 +580,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [codes13.ipynb](./Section42/codes13.ipynb)
 - [codes14.ipynb](./Section42/codes14.ipynb)
 
-## Day 43: LangChain Module: Retrieval Augmented Generation (RAG)
+### Day 43: LangChain Module: Retrieval Augmented Generation (RAG)
 
 **What I did today:**
 
@@ -609,7 +609,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [codes11.ipynb](./Section43/codes11.ipynb)
 - [codes12.ipynb](./Section43/codes12.ipynb)
 
-## Day 44: LangChain Module: Tools and Agents
+### Day 44: LangChain Module: Tools and Agents
 
 **What I did today:**
 
@@ -629,7 +629,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 - [codes4.ipynb](./Section44/codes4.ipynb)
 - [codes5.ipynb](./Section44/codes5.ipynb)
 
-## Day 45: Vector Databases Module: Introduction
+### Day 45: Vector Databases Module: Introduction
 
 **What I did today:**
 
@@ -648,7 +648,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 
 - [notes.ipynb](./Section45/notes.ipynb)
 
-## Day 46: Vector Databases Module: Basics of Vector Space and High-Dimensional Data
+### Day 46: Vector Databases Module: Basics of Vector Space and High-Dimensional Data
 
 **What I did today:**
 
@@ -667,7 +667,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 
 - [notes.ipynb](./Section46/notes.ipynb)
 
-## Day 47: Vector Databases Module: Introduction to The Pinecone Vector Database
+### Day 47: Vector Databases Module: Introduction to The Pinecone Vector Database
 
 **What I did today:**
 
@@ -688,7 +688,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 
 - [notes.ipynb](./Section47/notes.ipynb)
 
-## Day 48: Vector Databases Module: Semantic Search with Pinecone and Custom (Case Study)
+### Day 48: Vector Databases Module: Semantic Search with Pinecone and Custom (Case Study)
 
 **What I did today:**
 
@@ -708,7 +708,7 @@ A daily log to track learning progress, document challenges, and reflect on new 
 
 - [notes.ipynb](./Section48/notes.ipynb)
 
-## Day 49: Speech Recognition Module: Introduction
+### Day 49: Speech Recognition Module: Introduction
 
 **What I did today:**
 
