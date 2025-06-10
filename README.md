@@ -729,3 +729,18 @@ A daily log to track learning progress, document challenges, and reflect on new 
 **Resources:**
 
 - [notes.ipynb](./Section49/notes.ipynb)
+
+### Day 50: Speech Recognition Module: Sound and Speech Basics
+
+**What I did today:**
+
+- Gained a foundational understanding of speech recognition, exploring how human auditory processes inspire machine learning models and the evolution from fixed pattern matching to modern neural networks.
+- Clarified the fundamental physics of sound, differentiating between mechanical and electromagnetic waves and understanding sound propagation through energy transfer rather than matter transfer.
+- Analyzed the five core properties of sound waves—amplitude, wavelength, period, frequency, and phase—and their direct applications in speech recognition for tasks like phoneme differentiation and emphasis detection.
+- Explored the conceptual shift from rigid pattern-matching systems to flexible machine learning models (e.g., HMMs to RNNs/Transformers), which enables robust understanding of varied human speech.
+- Connected theoretical wave properties to practical audio engineering tasks, such as noise cancellation through phase manipulation and source localization using sound attenuation models.
+- Identified the Fourier Transform as a critical tool for decomposing complex audio signals into their constituent properties (frequency, amplitude, phase) for effective analysis.
+
+**Resources:**
+
+- [notes.ipynb](./Section50/notes.ipynb)
