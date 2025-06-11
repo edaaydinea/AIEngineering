@@ -46,6 +46,8 @@ This repository contains materials, notes, and code for the Udemy course: [**The
     - [Day 47: Vector Databases Module: Introduction to The Pinecone Vector Database](#day-47-vector-databases-module-introduction-to-the-pinecone-vector-database)
     - [Day 48: Vector Databases Module: Semantic Search with Pinecone and Custom (Case Study)](#day-48-vector-databases-module-semantic-search-with-pinecone-and-custom-case-study)
     - [Day 49: Speech Recognition Module: Introduction](#day-49-speech-recognition-module-introduction)
+    - [Day 50: Speech Recognition Module: Sound and Speech Basics](#day-50-speech-recognition-module-sound-and-speech-basics)
+    - [Day 51: Speech Recognition Module: Analog to Digital Conversion](#day-51-speech-recognition-module-analog-to-digital-conversion)
 
 ---
 
@@ -744,3 +746,17 @@ A daily log to track learning progress, document challenges, and reflect on new 
 **Resources:**
 
 - [notes.ipynb](./Section50/notes.ipynb)
+
+### Day 51: Speech Recognition Module: Analog to Digital Conversion
+
+**What I did today:**
+
+- Understood the fundamental process of converting analog audio signals into a digital format, a critical step for modern data processing tasks like speech recognition. This involves two main stages: sampling and quantization.
+- Learned about **Sampling Rate**, which is the frequency at which an analog signal is captured per second (e.g., 44,100 Hz for CD quality). A higher rate generally means a more accurate digital representation, vital for distinguishing fine phonetic details.
+- Learned about **Bit Depth**, which determines the number of discrete levels ($2^n$ for $n$ bits) available for quantization. Higher bit depth allows for more precise representation of the signal's dynamic range, improving clarity.
+- Understood **Bit Rate** as the total data processed per second (Sample Rate × Bit Depth × Channels). It's a key metric for audio fidelity and file size, representing the trade-off between quality and computational cost.
+
+**Resources:**
+
+- [notes.ipynb](./Section51/notes.ipynb)
+
