@@ -48,6 +48,7 @@ This repository contains materials, notes, and code for the Udemy course: [**The
     - [Day 49: Speech Recognition Module: Introduction](#day-49-speech-recognition-module-introduction)
     - [Day 50: Speech Recognition Module: Sound and Speech Basics](#day-50-speech-recognition-module-sound-and-speech-basics)
     - [Day 51: Speech Recognition Module: Analog to Digital Conversion](#day-51-speech-recognition-module-analog-to-digital-conversion)
+    - [Day 52: Speech Recognition Module: Audio Feature Extraction for AI Applications](#day-52-speech-recognition-module-audio-feature-extraction-for-ai-applications)
 
 ---
 
@@ -759,4 +760,19 @@ A daily log to track learning progress, document challenges, and reflect on new 
 **Resources:**
 
 - [notes.ipynb](./Section51/notes.ipynb)
+
+### Day 52: Speech Recognition Module: Audio Feature Extraction for AI Applications
+
+**What I did today:**
+
+- Understood audio features (e.g., pitch, loudness) as inputs for ML models in speech recognition.
+- Focused on **time-domain features** (from raw waveforms) like Zero-Crossing Rate (ZCR) for frequency estimation, Root Mean Square (RMS) Energy for loudness, Temporal Centroid for energy peak timing, and Amplitude Envelope for volume contour.
+- Explored **frequency-domain features** (from tonal composition) like Spectral Centroid for "brightness," Spectral Bandwidth for frequency spread, and Spectral Contrast for peak-valley differences.
+- Learned about **Mel-Frequency Cepstral Coefficients (MFCCs)**, a key time-frequency feature mimicking human hearing, crucial for speech recognition.
+- Studied the feature extraction pipeline: digitization, framing (dividing audio into short, overlapping segments), per-frame feature computation, and aggregation (summarizing frame features into a single vector).
+- Understood the **Fourier Transform** (DFT for static, STFT for dynamic frequency analysis) as essential for converting time-domain frames to the frequency domain, enabling analysis of changing tonal qualities in speech.
+
+**Resources:**
+
+- [notes.ipynb](./Section52/notes.ipynb)
 
